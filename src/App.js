@@ -1,11 +1,13 @@
 
 import './App.css';
 import Card from './components/Card/Card';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      <h1>welcome to daily activities</h1>
+
+      <Header></Header>
       <Card></Card>
 
     </div>

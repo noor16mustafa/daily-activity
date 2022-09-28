@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    background-color: seagreen;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-icon img {
+    width: 70px;
+    height: 70px;
+}
+
+.header-text {
+    margin-left: 30px;
+
+}
