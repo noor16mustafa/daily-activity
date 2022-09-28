@@ -1,0 +1,44 @@
+[
+    {
+        "id": "101",
+        "name": "Reading Newspaper",
+        "description": "Reading newspaper daily increase our general knowledge.It's a good habit",
+        "time": 20,
+        "img": "https://img.freepik.com/free-photo/female-freelancer-relaxing-coffee-break-reading-newspaper-cafeteria_637285-280.jpg?size=626&ext=jpg&uid=R70709434&ga=GA1.2.557549003.1664380410"
+    },
+    {
+        "id": "102",
+        "name": "Leisure Habit",
+        "description": "In leisure time i used to gardening.it's growing our nature love.",
+        "time": 15,
+        "img": "https://media.istockphoto.com/photos/joyful-young-asian-woman-enjoys-her-time-at-home-and-watering-her-picture-id1223426682?b=1&k=20&m=1223426682&s=170667a&w=0&h=sc0yXqWopoGKGOrIIJhNJPX_jmDlnjnRmy-Ysnr8HKw="
+    },
+    {
+        "id": "103",
+        "name": "Morning Yoga",
+        "description": "Daily morning exercise makes our body healthy and joyful.Everyone should make this habit",
+        "time": 30,
+        "img": "https://img.freepik.com/free-photo/beautiful-young-woman-wiping-sweat-with-towel-exhausted-after-daily-training-drinking-water-from-bottle_657921-606.jpg?size=626&ext=jpg&uid=R70709434&ga=GA1.2.557549003.1664380410"
+    },
+    {
+        "id": "104",
+        "name": "Office Hour",
+        "description": "It's necessary to make you up ready in office time.It's make an good impression",
+        "time": 480,
+        "img": "https://t3.ftcdn.net/jpg/05/06/30/62/240_F_506306287_mN6aYsZwhYMtLOvpSpyqj1zMrpwAkg5F.jpg"
+    },
+    {
+        "id": "105",
+        "name": "Family Time",
+        "description": "Nothing is more important then family.Spend your quality time with your's dearer one's",
+        "time": 120,
+        "img": "https://t4.ftcdn.net/jpg/03/01/16/45/240_F_301164599_7u5Y3JqwAPur8UwLAXNtnQwY24XLOGcL.jpg"
+    },
+    {
+        "id": "106",
+        "name": "Shopping",
+        "description": "For mind refreshment it's need to go out and spent for your self.",
+        "time": 60,
+        "img": "https://img.freepik.com/free-photo/woman-enjoy-shopping-mall_53876-165215.jpg?size=626&ext=jpg&uid=R70709434&ga=GA1.2.557549003.1664380410"
+    }
+]
