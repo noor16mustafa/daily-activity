@@ -1,6 +1,7 @@
 .header {
+    width: 100%;
     display: flex;
-    background-color: seagreen;
+    background-color: purple;
     padding: 10px;
     align-items: center;
     justify-content: center;

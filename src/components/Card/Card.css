@@ -1,0 +1,27 @@
+.activities {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.activity-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: 100px 50px;
+}
+
+.sidebar {
+    background-color: whitesmoke;
+
+}
+
+@media screen and (max-width:420px) {
+    .activities {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .activity-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

@@ -1,0 +1,82 @@
+.sidebar-container {
+    position: sticky;
+    top: 0;
+}
+
+.my-info img {
+    height: 100px;
+    width: 100px;
+}
+
+.my-details {
+    background-color: gainsboro;
+    margin: 0 5px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.break-btn {
+    background-color: gainsboro;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+    margin: 0 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.break-btn .btn {
+    margin-right: 4px;
+    border: 1px solid seagreen;
+    border-radius: 10px;
+}
+
+.break-btn .btn:hover {
+    background-color: seagreen;
+}
+
+.exercise {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.exercise-text {
+    padding-left: 5px;
+}
+
+.exercise-time {
+    padding-right: 5px;
+}
+
+.break-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 5px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.break-text {
+    padding-left: 5px;
+}
+
+.break-time {
+    padding-right: 5px;
+}
+
+.completed-btn {
+    background-color: rgb(80, 13, 80);
+    color: white;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.completed-btn:hover {
+    background-color: seagreen;
+}
