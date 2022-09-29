@@ -3,7 +3,7 @@ import './Blog.css'
 
 const Blog = () => {
     return (
-        <div>
+        <div className='blog'>
             <div className='blog-container'>
                 <div className="question">
                     <h2>How does react work?</h2>
@@ -25,9 +25,11 @@ const Blog = () => {
             </div>
             <div className='blog-container'>
                 <div className="question">
-
+                    <h2>What does useEffect do without data loading?</h2>
                 </div>
-                <div className="answer"></div>
+                <div className="answer">
+                    <p>The motivation behind the introduction of useEffect Hook is to eliminate the side-effects of using class-based components. For example, tasks like updating the DOM, setting up subscriptions or timers, etc can be lead to unwarranted side-effects.We know that, the useEffect() is used for causing side effects in functional components and it is also capable for handling componentDidMount(), componentDidUpdate() and componentWillUnmount() life-cycle methods of class based components into functional component</p>
+                </div>
 
             </div>
         </div>
