@@ -5,7 +5,7 @@ import './Card.css'
 
 const Card = () => {
     const [activities, setActivities] = useState([]);
-    const [time, setTime] = useState([]);
+    const [info, setInfo] = useState([]);
 
     useEffect(() => {
         fetch('data.json')
@@ -13,10 +13,11 @@ const Card = () => {
             .then(data => setActivities(data))
     }, [])
 
+
     const handleAddBtn = (selectedActivity) => {
-        const newArr = [...time, selectedActivity]
+        const newArr = [...info, selectedActivity]
         //console.log(newArr);
-        setTime(newArr);
+        setInfo(newArr);
     }
     return (
         <div className='activities'>
@@ -31,7 +32,7 @@ const Card = () => {
                 }
             </div>
             <div className="sidebar">
-                <Sidebar selectedActivity={time}></Sidebar>
+                <Sidebar selectedActivity={info}></Sidebar>
             </div>
 
         </div>
