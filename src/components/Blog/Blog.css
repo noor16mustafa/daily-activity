@@ -22,3 +22,9 @@
 .answer {
     padding: 5px 10px;
 }
+
+@media screen and (max-width:480px) {
+    .blog-container {
+        width: 100%;
+    }
+}
