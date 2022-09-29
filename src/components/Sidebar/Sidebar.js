@@ -2,11 +2,12 @@ import './Sidebar.css'
 
 const Sidebar = (props) => {
 
+    const { selectedActivity } = props;
 
-
-
-
-    //console.log(total);
+    let total = 0;
+    for (const activity of selectedActivity) {
+        total = total + activity.time;
+    }
 
 
     return (
@@ -34,7 +35,7 @@ const Sidebar = (props) => {
                     <div className="exercise-text">
                         <p>Exercise time</p>
                     </div>
-                    <div className="exercise-time"><p>  minute</p></div>
+                    <div className="exercise-time"><p>{total}  minute</p></div>
                 </div>
             </div>
             <div>
