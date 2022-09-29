@@ -1,5 +1,8 @@
 import { useEffect, useState } from 'react';
-import './Sidebar.css'
+import './Sidebar.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const Sidebar = (props) => {
     const [brTime, setBrTime] = useState(0);
@@ -22,6 +25,11 @@ const Sidebar = (props) => {
     let total = 0;
     for (const activity of selectedActivity) {
         total = total + activity.time;
+    }
+
+    const showAlert = () => {
+        toast("Activity Completed Successfully..!!!");
+
     }
 
 
@@ -63,8 +71,10 @@ const Sidebar = (props) => {
                 </div>
             </div>
             <div className='activity-completed'>
-                <button className='completed-btn'>Activity Completed</button>
+                <button onClick={showAlert} className='completed-btn'>Activity Completed</button>
+
             </div>
+            <ToastContainer />
         </div>
     );
 };
