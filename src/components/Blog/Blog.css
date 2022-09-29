@@ -1,0 +1,20 @@
+.blog-container {
+    width: 800px;
+    margin: auto;
+    margin-top: 25px;
+    padding: 5px 10px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    box-shadow: 0px 5px 8px 8px #888888;
+}
+
+.question {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(54, 3, 54);
+    background-color: cadetblue;
+}
+
+.answer {
+    padding: 5px 10px;
+}
